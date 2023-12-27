@@ -24,7 +24,7 @@ const ContactPage = () => {
       ) : (
         <>
           <div class="mx-auto max-w-2xl text-center">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
               Contact Us
             </h2>
           </div>
@@ -36,7 +36,7 @@ const ContactPage = () => {
               <div>
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 "
                 >
                   First name
                 </label>
@@ -49,14 +49,14 @@ const ContactPage = () => {
                     onChange={(e) => setFirstName(e.target.value)}
                     required
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 "
                 >
                   Last name
                 </label>
@@ -69,14 +69,14 @@ const ContactPage = () => {
                     onChange={(e) => setLastName(e.target.value)}
                     required
                     autoComplete="family-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 "
                 >
                   Email
                 </label>
@@ -89,14 +89,14 @@ const ContactPage = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 "
                 >
                   Message
                 </label>
@@ -108,7 +108,7 @@ const ContactPage = () => {
                     onChange={(e) => setMessage(e.target.value)}
                     required
                     rows="4"
-                    className="block w-full rounded-md resize-none h-44 border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md resize-none h-44 border-0 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   ></textarea>
                 </div>
               </div>

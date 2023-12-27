@@ -23,7 +23,7 @@ const WeatherWidget = () => {
   return (
     <>
       <div className="text-center">
-        <h2 className="text-3xl font-bold text-gray-900">
+        <h2 className="text-3xl font-bold">
           Weather Widget
         </h2>
       </div>
@@ -32,7 +32,7 @@ const WeatherWidget = () => {
           type="text"
           name="city"
           id="city"
-          className="block w-full rounded-md border py-2 px-3 text-gray-900 focus:outline-none placeholder-gray-400 text-sm"
+          className="block w-full rounded-md border py-2 px-3 focus:outline-none placeholder-gray-400 text-sm"
           placeholder="Enter City Name"
           value={location}
           onChange={(event) => setlocation(event.target.value)}

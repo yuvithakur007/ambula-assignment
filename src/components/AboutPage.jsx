@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div class="flex justify-center">
       <div class="w-1/2">
         <div class="mt-6">
-        <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl">
           About Ambula
         </h2>
           <p class="text-xl font-semibold text-center mt-3">
@@ -21,7 +21,7 @@ const AboutPage = () => {
         </div>
   
         <div class="mt-6">
-        <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl">
           Our Team
         </h2>
           <p class="text-xl font-semibold text-center mt-3">
@@ -33,7 +33,7 @@ const AboutPage = () => {
         </div>
   
         <div class="mt-6">
-        <h2 class="text-3xl font-semibold tracking-tight text-center text-gray-900 sm:text-3xl">
+        <h2 class="text-3xl font-semibold tracking-tight text-center sm:text-3xl">
         This Project includes following:
         </h2>
           <ul class="text-xl font-semibold text-center list-disc ml-12 mt-3">
