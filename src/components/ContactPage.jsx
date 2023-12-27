@@ -14,6 +14,7 @@ const ContactPage = () => {
     submitted,
     handleSubmit,
   } = useStateContext();
+  
   return (
     <>
       {submitted ? (
@@ -29,17 +30,17 @@ const ContactPage = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className="mx-auto mt-16 max-w-xl sm:mt-20"
+            className="mx-auto max-w-xl sm:mt-5"
           >
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 text-left">
+            <div className="text-left">
               <div>
                 <label
-                  for="first-name"
+                  htmlFor="first-name"
                   className="block text-sm font-semibold leading-6 text-gray-900"
                 >
                   First name
                 </label>
-                <div className="mt-2.5">
+                <div className="mt-2">
                   <input
                     type="text"
                     name="first-name"
@@ -47,19 +48,19 @@ const ContactPage = () => {
                     value={firstname}
                     onChange={(e) => setFirstName(e.target.value)}
                     required
-                    autocomplete="given-name"
+                    autoComplete="given-name"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
-                  for="last-name"
+                  htmlFor="last-name"
                   className="block text-sm font-semibold leading-6 text-gray-900"
                 >
                   Last name
                 </label>
-                <div className="mt-2.5">
+                <div className="mt-2">
                   <input
                     type="text"
                     name="last-name"
@@ -67,19 +68,19 @@ const ContactPage = () => {
                     value={lastname}
                     onChange={(e) => setLastName(e.target.value)}
                     required
-                    autocomplete="family-name"
+                    autoComplete="family-name"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
-              <div className="sm:col-span-2">
+              <div>
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-sm font-semibold leading-6 text-gray-900"
                 >
                   Email
                 </label>
-                <div className="mt-2.5">
+                <div className="mt-2">
                   <input
                     type="email"
                     name="email"
@@ -87,19 +88,19 @@ const ContactPage = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    autocomplete="email"
+                    autoComplete="email"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:outline-none sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
-              <div className="sm:col-span-2">
+              <div>
                 <label
-                  for="message"
+                  htmlFor="message"
                   className="block text-sm font-semibold leading-6 text-gray-900"
                 >
                   Message
                 </label>
-                <div className="mt-2.5">
+                <div className="mt-2">
                   <textarea
                     name="message"
                     id="message"
@@ -115,7 +116,7 @@ const ContactPage = () => {
             <div class="mt-10">
               <button
                 type="submit"
-                className="block w-full rounded-md bg-purple-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="block w-full rounded-md bg-green-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm"
               >
                 Submit
               </button>
